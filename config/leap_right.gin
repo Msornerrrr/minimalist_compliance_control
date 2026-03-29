@@ -57,7 +57,7 @@ MinkIK.site_orientation_cost_overrides = {
     "th_tip": 0.5,
 }
 
-# Motor config paths
-MotorConfigPaths.default_config_path = "descriptions/default.yml"
-MotorConfigPaths.robot_config_path = "descriptions/leap_hand/robot.yml"
-MotorConfigPaths.motor_config_path = "descriptions/leap_hand/motors_right.yml"
+# Motor config paths (used by run_policy.py, not ComplianceController directly)
+# MotorConfigPaths.default_config_path = "descriptions/default.yml"
+# MotorConfigPaths.robot_config_path = "descriptions/leap_hand/robot.yml"
+# MotorConfigPaths.motor_config_path = "descriptions/leap_hand/motors_right.yml"
