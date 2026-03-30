@@ -100,18 +100,18 @@ Joint/body naming follows the same convention as left_hand_fixed.xml.
 
   <!-- MCC motor actuators (not position actuators) -->
   <actuator>
-    <motor name="if_mcp_act" joint="if_mcp"/>
     <motor name="if_rot_act" joint="if_rot"/>
+    <motor name="if_mcp_act" joint="if_mcp"/>
     <motor name="if_pip_act" joint="if_pip"/>
     <motor name="if_dip_act" joint="if_dip"/>
 
-    <motor name="mf_mcp_act" joint="mf_mcp"/>
     <motor name="mf_rot_act" joint="mf_rot"/>
+    <motor name="mf_mcp_act" joint="mf_mcp"/>
     <motor name="mf_pip_act" joint="mf_pip"/>
     <motor name="mf_dip_act" joint="mf_dip"/>
 
-    <motor name="rf_mcp_act" joint="rf_mcp"/>
     <motor name="rf_rot_act" joint="rf_rot"/>
+    <motor name="rf_mcp_act" joint="rf_mcp"/>
     <motor name="rf_pip_act" joint="rf_pip"/>
     <motor name="rf_dip_act" joint="rf_dip"/>
 
