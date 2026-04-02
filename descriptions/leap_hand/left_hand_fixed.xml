@@ -46,7 +46,7 @@ Joint/body naming follows the same convention as right_hand_fixed.xml.
       <geom type="mesh" mesh="thumb_tip" friction="0.5" material="white"/>
     </default>
 
-    <!-- joint class defaults (left hand: same finger limits as right, thumb limits from Menagerie left) -->
+    <!-- joint class defaults (left hand: same finger limits as right, thumb CMC/AXL/MCP negated vs right) -->
     <default class="mcp">
       <joint pos="0 0 0" axis="0 0 -1" limited="true" range="-0.314 2.23"/>
     </default>
@@ -60,13 +60,13 @@ Joint/body naming follows the same convention as right_hand_fixed.xml.
       <joint pos="0 0 0" axis="0 0 -1" limited="true" range="-0.366 2.042"/>
     </default>
     <default class="thumb_cmc">
-      <joint pos="0 0 0" axis="0 0 -1" limited="true" range="-0.349 2.094"/>
+      <joint pos="0 0 0" axis="0 0 -1" limited="true" range="-2.094 0.349"/>
     </default>
     <default class="thumb_axl">
-      <joint pos="0 0 0" axis="0 0 -1" limited="true" range="-0.349 2.094"/>
+      <joint pos="0 0 0" axis="0 0 -1" limited="true" range="-2.094 0.349"/>
     </default>
     <default class="thumb_mcp">
-      <joint pos="0 0 0" axis="0 0 -1" limited="true" range="-0.47 2.443"/>
+      <joint pos="0 0 0" axis="0 0 -1" limited="true" range="-1.22 2.443"/>
     </default>
     <default class="thumb_ipl">
       <joint pos="0 0 0" axis="0 0 -1" limited="true" range="-1.34 1.88"/>
