@@ -1,0 +1,36 @@
+# Zero positions for LEAP right hand
+# LEAP convention: joint_angle = dynamixel_position - pi
+# So zero_pos = pi for all joints
+motors:
+    if_rot:
+        zero_pos: 3.141593
+    if_mcp:
+        zero_pos: 3.141593
+    if_pip:
+        zero_pos: 3.141593
+    if_dip:
+        zero_pos: 3.141593
+    mf_rot:
+        zero_pos: 3.141593
+    mf_mcp:
+        zero_pos: 3.141593
+    mf_pip:
+        zero_pos: 3.141593
+    mf_dip:
+        zero_pos: 3.141593
+    rf_rot:
+        zero_pos: 3.141593
+    rf_mcp:
+        zero_pos: 3.141593
+    rf_pip:
+        zero_pos: 3.141593
+    rf_dip:
+        zero_pos: 3.141593
+    th_cmc:
+        zero_pos: 3.141593
+    th_axl:
+        zero_pos: 3.141593
+    th_mcp:
+        zero_pos: 3.141593
+    th_ipl:
+        zero_pos: 3.141593

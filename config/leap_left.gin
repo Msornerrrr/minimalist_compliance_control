@@ -59,16 +59,11 @@ MinkIK.site_orientation_cost_overrides = {
 # Compliance policy fields
 ComplianceConfig.kp_pos = 100.0
 ComplianceConfig.kp_rot = 10.0
-ComplianceConfig.initial_pose = (
-    (0.052, -0.1, 0.247, -3.14, 0.0, 0.0),
-    (0.052, -0.055, 0.247, -3.14, 0.0, 0.0),
-    (0.052, -0.01, 0.247, -3.14, 0.0, 0.0),
-    (-0.228, -0.094, 0.149, -0.07, 2.42, 0.02),
-)
+ComplianceConfig.initial_pose = ()
 ComplianceConfig.use_compliance = True
 ComplianceConfig.perturb_force_max = 3.0
 
 # Motor config paths
 MotorConfigPaths.default_config_path = "descriptions/default.yml"
 MotorConfigPaths.robot_config_path = "descriptions/leap_hand/robot.yml"
-MotorConfigPaths.motor_config_path = "descriptions/leap_hand/motors.yml"
+MotorConfigPaths.motor_config_path = "descriptions/leap_hand/motors_ours.yml"
