@@ -42,8 +42,8 @@ WrenchEstimateConfig.normal_axis = "+z"
 
 # Compliance reference (fixed base, right hand)
 RefConfig.dt = 0.02
-RefConfig.mass = 1.0
-RefConfig.inertia_diag = (1.0, 1.0, 1.0)
+RefConfig.mass = 0.25
+RefConfig.inertia_diag = (0.25, 0.25, 0.25)
 RefConfig.fixed_model_xml_path = "descriptions/leap_hand/right_hand_fixed.xml"
 IKConfig.ik_position_only = True
 IKConfig.mink_num_iter = 1
@@ -56,6 +56,13 @@ MinkIK.site_orientation_cost_overrides = {
     "mf_tip": 0.2,
     "th_tip": 0.5,
 }
+
+# Compliance policy fields
+ComplianceConfig.kp_pos = 50.0
+ComplianceConfig.kp_rot = 5.0
+ComplianceConfig.initial_pose = ()
+ComplianceConfig.use_compliance = True
+ComplianceConfig.perturb_force_max = 3.0
 
 # Motor config paths (used by run_policy.py, not ComplianceController directly)
 # MotorConfigPaths.default_config_path = "descriptions/default.yml"
